@@ -1,7 +1,6 @@
 names = ["anjula", "janith", "buddika", "mahinda", "kasun", "prashan"]
-a = int(input('enter no'))
-if a < len(names):
+a = 0
+while a < len(names):
     print(names[a])
-else:
-    print("Invalid List Length")
+    a += 1
 
